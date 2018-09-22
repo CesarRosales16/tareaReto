@@ -1,33 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200" rel="stylesheet">
     <link rel="stylesheet" href="style.css" type="text/css">
     <title>Pemodule TAREA</title>
 </head>
+
 <body>
     <div class="container">
         <header>
-            <div class="header-color">
-                    <div class="header-top">
-                            <img src="img/logo.png" alt="Logo de la página" class="logo">
-                            <nav>
-                                <ul>
-                                    <li><a href="#">HOME</a></li>
-                                    <li><a href="#">GENERIC</a></li>
-                                    <li><a href="#">ELEMENTS</a></li>                    
-                                </ul>
-                            </nav>
-                        </div>      
-                        <h2>your best partner</h2>
-                        <h1>Pemodule</h1>            
-                        <a href="#" class="button">Get Started  <i class="fas fa-arrow-right"></i></a>
+            <div class="background-color"></div>
+            <div class="header-content">
+                <div class="header-top">
+                    <div class="logo"><img src="img/logo.png" alt="Logo de la página" class="logo"></div>
+                    <nav>
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">GENERIC</a></li>
+                            <li><a href="#">ELEMENTS</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-bottom">
+                    <h2>your best partner</h2>
+                    <h1>Pemodule</h1>
+                    <a href="#" class="button gradient-hover">Get Started <i class="fas fa-arrow-right"></i></a>
+                </div>
             </div>
-
         </header>
+        <section class="sec-1">
+            <article class="art-1">
+                <h2 class="subtitle">Reasons To <br> <span>Choose</span> Notebook</h2>
+                <p>Here, I focus on a range of items and features that we use in life without giving them a second thought.
+                    such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                <a href="#" class="button">Get Started <i class="fas fa-arrow-right"></i></a>
+            </article>
+            <div>
+                <img src="img/slider.jpg" alt="Montañas">
+            </div>
+        </section>
+        <section class="sec-2 parallax">
+            <div class="content">
+                <div></div>
+                <article class="art-2">
+                    <h2 class="subtitle">Reasons To <br> <span>Choose</span> Notebook</h2>
+                    <p>Here, I focus on a range of items and features that we use in life without giving them a second thought.
+                        such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <a href="#" class="button gradient-hover">Get Started <i class="fas fa-arrow-right"></i></a>
+                </article>
+            </div>
+        </section>
+        <section class="sec-3">
+            <div class="images img1">
+                <div class="hide-unhide">
+                    <div class="hidden-content">
+                        <h3>BECOMING A DVD REPAIR EXPERT ONLINE</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="images img2">
+                <div class="hide-unhide">
+                    <div class="hidden-content">
+                        <h3>BECOMING A DVD REPAIR EXPERT ONLINE</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="images img3">
+                <div class="hide-unhide">
+                    <div class="hidden-content">
+                        <h3>BECOMING A DVD REPAIR EXPERT ONLINE</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="images img4">
+                <div class="hide-unhide">
+                    <div class="hidden-content">
+                        <h3>BECOMING A DVD REPAIR EXPERT ONLINE</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec-4">
+            <div class="div background-color"></div>
+            <div class="content">
+                <h2 class="subtitle">Send Us <span>Message</span></h2>
+                <p>Most people who work in an office environment, buy computer <br> products.</p>
+                <form action="#" method="POST" id="message-section">
+                    <div class="input">
+                        <div><input type="text" id="name" placeholder="Enter your name" required></div>
+                        <div><input type="email" id="email" placeholder="Enter email addres" required></div>
+                    </div>
+                    <textarea rows="4" cols="50" placeholder="Message" id="message"></textarea>
+                </form>
+                <a href="#" class="button white-decoration gradient-hover">Send Message <i class="fas fa-arrow-right"></i></a>
+                </input>
+            </div>
+        </section>
+        <section class="sec-5 subscribe">
+            <h2 class="subtitle">Subscribe for our <span>Newsletter</span></h2>
+            <div class="barra">
+                <input type="email" name="email-s" id="email-s" placeholder="Your Email addres">
+                <a href="#" class="button">Get Started <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <p>We won’t send any types of spam, Guranteed</p>
+        </section>
+        <footer>
+            <div class="footer-nav">
+                <a href="">Home</a>
+                <a href="">Generic</a>
+                <a href="">Elements</a>
+            </div>
+            <div class="social-networks">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fas fa-basketball-ball"></i></a>
+                <a href=""><i class="fab fa-behance"></i></a>
+            </div>
+            <p>Copyright ©2018 All rights reserved | This template is made with <span><i class="far fa-heart"></i></span>
+                by <a href="">Colorlib</a></p>
+        </footer>
     </div>
 </body>
+
 </html>
