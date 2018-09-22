@@ -379,7 +379,7 @@ footer p a {
     } 
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 630px) {
     .container {
         width: 100%;
         margin: 0;
@@ -396,6 +396,14 @@ footer p a {
     }
     h2.subtitle {
         font-size: 1.5em;
+    }
+    header nav {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+    }
+    .header-top nav ul li.x {
+        visibility: hidden;
     }
     .sec-1 {
         grid-template-columns: 100%;
@@ -417,9 +425,30 @@ footer p a {
     }
      textarea {
         -webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-
-	width: 90%;
-     }
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 90%;
+    }
+    .sec-5 h2 {
+        padding-bottom: 1em;
+        padding-left: 1em;
+    }
+    .barra {
+        display: block;
+        padding-bottom: 2em;
+        padding-left: 1em;
+    }
+    .barra #email-s {
+        display: block;
+        margin-bottom: 1.5em;
+    }
+    .sec-5 > p {
+        padding-left: 1em;
+    }
+    .footer-nav a {
+        display: block;
+    }
+    footer > p {
+        padding-left: 1em;
+    }
 }
