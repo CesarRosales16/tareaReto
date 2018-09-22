@@ -147,9 +147,8 @@ h2.subtitle > span {
     border-radius: 5em;
     color: #ffffff;
     text-decoration: none;
-    padding: 0.5em 2em 0.5em;
     font-weight: bold;
-    width: 7em;
+    width: 8em;
 }
 
 p {
@@ -247,6 +246,12 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.button-right {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 #message-section {
